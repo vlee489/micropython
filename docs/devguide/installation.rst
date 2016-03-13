@@ -39,16 +39,26 @@ Windows
 ~~~~~~~
 
 When installing `Yotta
-<http://yottadocs.mbed.com/>`_, make sure you have these components ticked to install.
+<http://yottadocs.mbed.com/#installing>`_, make sure you have these components ticked to install.
 
-- python
-- gcc
-- cMake
-- ninja
-- Yotta
-- git-scm
-- mbed serial driver
+- `Python <https://www.python.org/downloads/release/python-279/>`_
+- `GCC <https://launchpad.net/gcc-arm-embedded/+download>`_
+- `CMake <https://cmake.org>`_
+- `Ninja <https://github.com/martine/ninja/releases/download/v1.5.3/ninja-win.zip>`_
+- `Yotta <http://yottadocs.mbed.com/#installing>`_
+- `Git-SCM <https://git-scm.com>`_
+- `mbed serial driver <https://developer.mbed.org/handbook/Windows-serial-configuration>`_
 
+You may need to manually added each item's bin folder from Yotta in the PATH system variables.
+You'll need to do this if Yotta brings up that some prerequisites are not found when building.
+
+If manually adding the path from the items installed by Yotta doesn't work you may need to download
+the required program manually, install them and find their install location and add them to the
+PATH system variables
+
+Note
+
+- Git-SCM install location is ``C:\Users\[username]\AppData\Local\Programs\Git\bin``
 
 
 .. _microbit-osx:
