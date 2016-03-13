@@ -38,6 +38,11 @@ Installation Scenarios
 Windows
 ~~~~~~~
 
+.. note::
+
+    Current you are unable to build the firmware for Micropython for the
+    BBC Microbit due and issue with Yotta!
+
 When installing `Yotta
 <http://yottadocs.mbed.com/#installing>`_, make sure you have these components ticked to install.
 
@@ -55,10 +60,6 @@ You'll need to do this if Yotta brings up that some prerequisites are not found 
 If manually adding the path from the items installed by Yotta doesn't work you may need to download
 the required program manually, install them and find their install location and add them to the
 PATH system variables
-
-Note
-
-- Git-SCM install location is ``C:\Users\[username]\AppData\Local\Programs\Git\bin``
 
 
 .. _microbit-osx:
